@@ -65,9 +65,9 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # Contact Information
-mobile = "0124857985320"
+mobile = "0214857985320"
 email = "contact@cultura.id"
-location = "Jakarta, Indonesia"
+location = "Malang, Indonesia"
 # copyright
 copyright = "| Copyright &copy; 2021 [Cultura](https://cultura-id.github.io) All Rights Reserved |"
 # Snipcart Credentials
@@ -88,24 +88,8 @@ currencySymbol = "$"
 
   # Social Site
   [[params.social]]
-  icon = "ti-facebook"
-  link = "#"
-
-  [[params.social]]
-  icon = "ti-twitter-alt"
-  link = "#"
-
-  [[params.social]]
-  icon = "ti-youtube"
-  link = "#"
-
-  [[params.social]]
   icon = "ti-instagram"
-  link = "#"
-
-  [[params.social]]
-  icon = "ti-pinterest"
-  link = "#"
+  link = "https://instagram.com/_cultura.id"
 
   # Contact Form
   [params.contact]

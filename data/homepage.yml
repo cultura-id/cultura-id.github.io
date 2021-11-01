@@ -1,8 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Cultura"
-  content : "Aplikasi Mobile sebagai Media Pembelajaran dan Pelestarian Budaya Indonesia Berbasis Game"
+  title : "Nikmati Pengalaman Wisata Budaya Menarik dan Interaktif."
+  content : "Cultura memberikan pengalaman berwisata sekaligus pembelajaran tentang objek-objek budaya yang ada di Indonesia."
   image : "images/banner.png"
   # button
   button:
@@ -17,67 +17,85 @@ banner:
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "Lestarikan Budaya, Tingkatkan Industri Pariwisata."
+  content : "
+  - Cultura membantu meningkatkan minat masyarakat Indonesia terhadap budaya Indonesia serta melestarikannya.\n
+  - Cultura dapat memberikan pengalaman wisata menarik dan pengetahuan/wawasan tentang objek budaya di Indonesia.\n
+  - Cultura membantu meningkatkan pembangunan industri pariwisata berbasis budaya dengan meningkatnya pengunjung objek budaya di Indonesia.
+"
   image : "images/about.png"
 
 
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
+  title : "Pengalaman interaktif menggunakan Augmented Reality."
+  content : "Temukan objek-objek budaya virtual di tempat wisata budaya yang kamu kunjungi! Unduh dan pasang Cultura di smartphone kamu sekarang!\n"
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
-    label : "All Products"
-    link : "products"
+    label : "Unduh Aplikasi"
+    link : ""
 
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "Fitur Terbaik Cultura."
+  subtitle : "Rasakan pengalaman wisata terbaik dengan fitur yang tersedia."
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
+    - title : "Find Object Challenge"
       image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Pilih tempat wisata budaya yang diinginkan, selesaikan tantangan utama untuk mencari objek budaya virtual, dan dapatkan banyak poin."
       
     # material item loop
-    - title : "Aloe Vera"
+    - title : "Extra Point Quiz"
       image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Dapatkan poin ekstra dengan menyelesaikan kuis tambahan setelah tantangan utama selesai."
       
     # material item loop
-    - title : "Turmeric"
+    - title : "In Game Purchase"
       image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Tukarkan poinmu dengan voucher atau merchandise menarik. Kamu juga dapat membeli koin untuk membantumu menyelesaikan tantangan."
 
 ########################### Advantage #########################
 advantage:
   enable : true
-  title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+  title : "Koin dan Poin Berlimpah."
+  subtitle : "Kamu dapat membeli banyak koin untuk membantumu menyelesaikan tantangan utama dan menyimpan tantangan tambahan untuk kamu kerjakan di lain waktu. Selain itu, kamu juga dapat menukarkan poin yang kamu peroleh dengan voucher dan merchandise di stand merchan tempat wisata."
   image : "images/advantage.png"
-  advantageList:
-    # advantage list loop
-    - listItem : "Extremely lightweight"
-    - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
 
 
 ######################## Promo Video ##########################
 video:
   enable : true
-  title : "How To Use This Product?"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+  title : "Kapan Menggunakan Cultura?"
+  content : "Aplikasi Cultura dapat kamu gunakan untuk mencari informasi tempat wisata budaya yang ingin kamu kunjungi. Kamu dapat menggunakan Cultura selama berwisata dengan menyelesaikan tantangan-tantangan yang tersedia."
   videoThumb : "images/video-thumb.jpg"
   # videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "Apa Kata Mereka Tentang Cultura?"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Angelo Perara"
+      image : "images/clients/client-1.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Sebuah aplikasi yang menarik dan mengurangi rasa bosan saat berwisata"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Seperti dapat paket gratis pengalaman berwisata dan belajar budaya Indonesia, sangat produktif"
+      rating : "four" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "John Doe"
+      image : "images/clients/client-3.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Tantangannya menarik dan interaktif, ada rewards juga yang bikin semangat terus!"
+      rating : "five" # rating star, one to five
